@@ -1,5 +1,7 @@
 # PHP Russia 2019
 
+[![Build Status](https://travis-ci.org/mem-memov/phprussia2019.svg?branch=master)](https://travis-ci.org/mem-memov/phprussia2019)
+
 Материалы к докладу "Такой код понравится вашим юнит-тестам"
 
 Установка Docker:
