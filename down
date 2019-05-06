@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker kill phprussia2019_container
+
+docker rmi --force phprussia2019_image

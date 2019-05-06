@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "CarSharing\\": "src/"
+        }
+    },
+    "require": {
+        "php": "~7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.5",
+        "mikey179/vfsstream": "^1.6"
+    }
+}

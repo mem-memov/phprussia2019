@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# BUILD IMAGE
+docker build --file="Dockerfile" --tag="phprussia2019_image" .
+
+# RUN CONTAINER
+docker run \
+    --rm \
+    --name="phprussia2019_container" \
+    --publish="80:80" \
+    --volume="$PWD/service:/var/www/html" \
+    --detach \
+    phprussia2019_image
+
+# INSTALL DEPENDENCIES
+docker exec --interactive --tty --user=$UID:$UID phprussia2019_container composer install
+

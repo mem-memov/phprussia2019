@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker exec -ti phprussia2019_container ./vendor/bin/phpunit "$@"

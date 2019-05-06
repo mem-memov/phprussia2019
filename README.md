@@ -1,1 +1,21 @@
-# phprussia2019
+# PHP Russia 2019
+
+Установка Docker:
+
+    https://docs.docker.com/install/
+
+Управление контейнером:
+
+    ./up
+    ./down
+    ./test 
+    ./test --no-coverage 
+    ./test --filter UserTest
+
+Покрытие тестами в браузере
+
+    http://localhost/coverage/report/index.html
+
+
+
+    
