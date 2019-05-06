@@ -12,6 +12,8 @@
     ./test --no-coverage 
     ./test --filter UserTest
 
+Контейнеру нужен порт 80.
+
 Покрытие тестами в браузере
 
     http://localhost/coverage/report/index.html
