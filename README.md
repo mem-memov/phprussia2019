@@ -1,5 +1,7 @@
 # PHP Russia 2019
 
+Материалы к докладу "Такой код понравится вашим юнит-тестам"
+
 Установка Docker:
 
     https://docs.docker.com/install/
@@ -17,7 +19,5 @@
 Покрытие тестами в браузере
 
     http://localhost/coverage/report/index.html
-
-
 
     
